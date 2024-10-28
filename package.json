@@ -1,0 +1,21 @@
+{
+  "name": "weathertest",
+  "module": "index.tsx",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.tsx"
+  },
+  "devDependencies": {
+    "0http-bun": "^1.0.4",
+    "@types/bun": "latest",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0-rc-cae764ce-20241025",
+    "react-dom": "^19.0.0-rc-cae764ce-20241025"
+  }
+}
