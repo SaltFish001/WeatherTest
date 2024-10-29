@@ -4,7 +4,8 @@ simple weather app
 
 ## 介绍
 
-本项目使用[Bun.js](https://bun.sh/)作为运行时, 考虑到Node环境，在`devDependencies`中安装了`"bun": "^1.1.33"`.
+本项目使用[Bun.js](https://bun.sh/)作为运行时, 考虑到Node环境，在`devDependencies`中安装了`"bun": "^1.1.33"`。
+基于`react-dom` 实现简单的SSR。不过还存在很多问题，包括状态存储、路由、打包优化等
 
 ### 初始化
 
