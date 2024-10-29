@@ -5,7 +5,7 @@
   "scripts": {
     "format": "prettier --write \"views/**/*.{js,ts,tsx,jsx}\" \"backend/**/*.{js,ts,tsx,jsx}\" \"*.{js,ts,tsx,jsx}\"",
     "lint": "eslint \"{views,backend}/**/*.{js,ts,tsx,jsx}\" \"*.{js,ts,tsx,jsx}\" --fix",
-    "dev": "bun --hot index.tsx",
+    "dev": "bun --watch index.ts",
     "predev": "bun run prebuild.ts"
   },
   "devDependencies": {
@@ -16,6 +16,7 @@
     "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^8.11.0",
     "@typescript-eslint/parser": "^8.11.0",
+    "dayjs": "^1.11.13",
     "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
