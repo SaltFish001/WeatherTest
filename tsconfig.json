@@ -27,6 +27,7 @@
   "include": [
     "**/*.tsx",
     "**/*.ts",
+    "**/*.js",
   ],
   "files": [
     "index.d.ts",

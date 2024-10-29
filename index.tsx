@@ -4,7 +4,9 @@ export const server = http({
 });
 import view_inject from './views/router_inject';
 import backend_inject from './backend/router_inject';
+await import('./prebuild');
 
 view_inject(server.router);
 backend_inject(server.router);
+
 export default server.router;

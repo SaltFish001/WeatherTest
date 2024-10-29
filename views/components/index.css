@@ -1,0 +1,20 @@
+.logo-vertical {
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  width: calc(100% - 40px);
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 20px;
+  color: white;
+  border-radius: 5px;
+  background-color: #a9a9a980;
+}
+.input-city {
+  margin: 0 20;
+  width: calc(100% - 40px) !important;
+}
