@@ -27,6 +27,9 @@
   "include": [
     "**/*.tsx",
     "**/*.ts",
-    "client.js"
+  ],
+  "files": [
+    "index.d.ts",
+    "eslint.config.js"
   ]
 }

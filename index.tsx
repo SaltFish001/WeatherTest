@@ -1,9 +1,9 @@
-import http from "0http-bun";
+import http from '0http-bun';
 export const server = http({
   port: 3000,
 });
-import view_inject from "./views/router_inject";
-import backend_inject from "./backend/router_inject";
+import view_inject from './views/router_inject';
+import backend_inject from './backend/router_inject';
 
 view_inject(server.router);
 backend_inject(server.router);

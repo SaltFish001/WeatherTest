@@ -1,5 +1,5 @@
-import Index from "./components/index";
-import { StyleProvider } from "@ant-design/cssinjs";
+import Index from './components/index';
+import { StyleProvider } from '@ant-design/cssinjs';
 
 const App = () => {
   return (
@@ -15,8 +15,8 @@ const App = () => {
         style={{
           border: 0,
           margin: 0,
-          width: "100vw",
-          height: "100vh",
+          width: '100vw',
+          height: '100vh',
         }}
       >
         <StyleProvider hashPriority="high">
